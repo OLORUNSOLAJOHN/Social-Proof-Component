@@ -1,0 +1,101 @@
+/* FROM REM TO PX, DO NOT DEPEND ON HTML FONT SIZE IN MEDIA QUERY */
+/* Instead, 1rem = 1em = 16px */
+/* Mobile: 375px */
+
+@media (max-width: 56em) {
+  .header {
+    column-gap: 6rem;
+  }
+
+  .rvwbox-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .rvw-box {
+    max-width: 45rem;
+    margin-inline: auto;
+  }
+
+  .rvw-box-2 {
+    margin-top: 0rem;
+  }
+
+  .rvw-box-3 {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 45em) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heading-left {
+    margin-bottom: 4rem;
+  }
+
+  .rvwstarbox-1 {
+    margin-right: 0rem;
+  }
+
+  .rvwstarbox-2 {
+    margin-right: 0rem;
+  }
+}
+
+@media (max-width: 42em) {
+  .rvw-heading {
+    font-size: 1.2rem;
+  }
+
+  .rvw-starbox {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .heading-left {
+    width: 30rem;
+  }
+
+  .topic {
+    font-size: 3.8rem;
+  }
+
+  .topic-paragraph {
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
+  }
+
+  .star {
+    margin-right: 0.7rem;
+  }
+
+  .star-box {
+    margin-bottom: 0.5rem;
+  }
+
+  .rvw-heading {
+    font-size: 1.6rem;
+  }
+
+  .rvwstar-box {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .heading-left {
+    width: 27rem;
+  }
+
+  .rvwstar-box {
+    width: 28rem;
+  }
+}
